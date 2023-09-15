@@ -100,7 +100,7 @@ You can access the GitHub repository for this project [here](https://github.com/
 Please refer to the [DOCUMENTATION.md](https://github.com/Ezeah/person-api-v1/blob/main/docs/DOCUMENTATION.md) file in the repository for detailed information on how to use the API, including request/response formats, sample usage, known limitations, and setup/deployment instructions.
 
 ## Hosting
-The API was hosted on render.com [link](https://person-api-v1-com.onrender.com/api) and github [link](https://github.com/Ezeah/person-api-v1). Make sure to modify the server configuration accordingly to host the endpoint. Test extensively with various testing tools to ensure it is accessible before deployment.
+The API was hosted on render.com [link](https://person-api-v1-com.onrender.com/api) and github [link](https://ezeah.github.io/person-api-v1). Make sure to modify the server configuration accordingly to host the endpoint. Test extensively with various testing tools to ensure it is accessible before deployment.
 
 ## Acceptance Criteria
 - The API successfully performs all CRUD operations.
