@@ -1,19 +1,22 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 const connectDB = async () => {
-     try {
-        const conn = await mongoose.connect(process.env.DATABASE_URI, {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-            useCreateIndex: true
-        });
+  try {
+    if (!process.env.DATABASE_URI) {
+      throw new Error('DATABASE_URI environment variable is not defined');
+    }
 
-         console.log(`MongoDB Connected: ${conn.connection.host}`.cyan.underline);
-     } catch (error) {
-         console.log(error);
-         process.exit(1)
-     }
-}
+    const conn = await mongoose.connect(process.env.DATABASE_URI, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndexes: true
+    });
 
-module.exports = connectDB
+    console.log(`MongoDB Connected: ${conn.connection.host}`.cyan.underline);
+  } catch (error) {
+    console.error(error.message);
+    process.exit(1);
+  }
+};
 
+module.exports = connectDB;
