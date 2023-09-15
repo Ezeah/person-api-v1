@@ -97,7 +97,7 @@ The API is flexible and can handle dynamic input. You can provide a person's nam
 You can access the GitHub repository for this project [here](https://github.com/Ezeah/person-api-v1/tree/main). The repository is well-organized and contains all the necessary files.
 
 ## Documentation
-Please refer to the [DOCUMENTATION.md](https://github.com/Ezeah/person-api-v1/blob/main/docs/documentation.md) file in the repository for detailed information on how to use the API, including request/response formats, sample usage, known limitations, and setup/deployment instructions.
+Please refer to the [DOCUMENTATION.md](https://github.com/Ezeah/person-api-v1/blob/main/docs/DOCUMENTATION.md) file in the repository for detailed information on how to use the API, including request/response formats, sample usage, known limitations, and setup/deployment instructions.
 
 ## Hosting
 The API was hosted on render.com [link](https://person-api-v1-com.onrender.com/api) and github [link](https://github.com/Ezeah/person-api-v1). Make sure to modify the server configuration accordingly to host the endpoint. Test extensively with various testing tools to ensure it is accessible before deployment.
