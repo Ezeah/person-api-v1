@@ -1,6 +1,9 @@
 {
   "name": "person-api-v1",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "description": "A person API resource",
   "main": "app.js",
   "scripts": {
